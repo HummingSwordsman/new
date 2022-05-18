@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2&family=Bebas+Neue&family=Domine&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            /* background-color: black; */
+            /* color: white; */
+            /* color: #ccc; */
+            /* background-image: url(https://cdn.pixabay.com/photo/2016/11/18/14/39/beans-1834984_960_720.jpg); */
+            /* background-size: cover; */
+            /* width: %; */
+            height: 550px;
+            background-repeat: no-repeat;
+            background-color: cornsilk;
+            color: black;
+        }
+        .parallax{
+            background-image: url(https://images.pexels.com/photos/2067423/pexels-photo-2067423.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            height: 620px;
+            /* width: 100%;        */
+         }
+
+        .food {
+            text-align: center;
+            padding: 170px;
+            margin-top: -20px;
+            /* color: black;  */
+        }
+
+        .food2 {
+            margin-top: -42px;
+            /* color: black; */
+            font-size: 30px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .food1 {
+            font-size: 75px;
+            font-family: 'Playfair Display', serif;
+            animation: text 5s infinite;
+            position: relative;
+        }
+        @keyframes text{
+           0%{
+               letter-spacing: 25px;
+           }
+           /* 50%{
+               font-size: 80px;
+           } */
+        }
+        
+
+        /* next part */
+        .grid {
+            margin-top: 100px;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* color: black; */
+            grid-row-gap: 2rem;
+            grid-column-gap: 2rem;
+            margin-left: 10px;
+        }
+
+        .item {
+            margin: 3px;
+            border: 1px solid rgb(231, 209, 209);
+            font-size: 23px;
+            text-align: center;
+        }
+        .item p{
+            color: gray;
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+            filter: invert(10%);
+        }
+        .block{margin-left: 3%;
+            margin-right: 2%;
+            width: 28%;
+            float: left;}
+        .block h4{color: grey;}
+        .mar2{margin-right: 10px;}
+        .bor{border: 1px solid grey;
+            margin-bottom: 20px;
+            /* margin-right: 155px; */
+            padding:8px 60px 8px 5px;
+            width: 95%;}
+            video{
+                margin-top: 35px;
+            }
+            .btn {
+
+margin-left: -28px;
+padding: 10px;
+background-color: #b99365;
+border-color: #b99365;
+color: white;
+padding-left: 33px;
+padding-right: 29px;
+border-radius: 10px;
+
+
+}
+
+.btn:hover {
+cursor: pointer;
+/* opacity: 0.8; */
+background-color: black;
+}
+.a {
+            text-decoration: none;
+            color: white;
+        }
+        img:hover{
+            /* opacity: 0.8; */
+            filter: invert(0%);
+            
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="food">
+
+            <h1 class="food1">Treat Yourself</h1>
+            <p class="food2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ullam hic quas nobis nemo neque
+                assumenda
+                earum aspernatur voluptatibus tempora quisquam, ipsa at vitae dicta minus blanditiis inventore </p>
+        </div>
+
+    </div>
+
+    <hr style="stroke-width: 10px; margin-top: 50px; margin-bottom: 15px; color: black;">
+
+    <div class="grid">
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_1.jpg.pagespeed.ic.VpbnsnaQH0.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+            <button class="btn"><a href="book.html" class="a" >ORDER NOW</a></button>
+
+
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2_b.jpg.pagespeed.ic.cc_QObtz2m.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+            <button class="btn"><a href="book.html" class="a" >ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_3_b.jpg.pagespeed.ic.v2DnERtnh7.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+          <button class="btn"><a href="book.html" class="a" >ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_4_b.jpg.pagespeed.ic.nT4xKPv8mW.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+          <button class="btn"><a href="book.html" class="a">ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_4_b.jpg.pagespeed.ic.nT4xKPv8mW.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+          <button class="btn"><a href="book.html" class="a">ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2.jpg.pagespeed.ic.55LLOE9kW3.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+          <button class="btn"><a href="book.html" class="a">ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_1.jpg.pagespeed.ic.VpbnsnaQH0.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+          <button class="btn"><a href="book.html" class="a">ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_3.jpg.pagespeed.ic.BODKukXBDK.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+          <button class="btn"><a href="book.html" class="a">ORDER NOW</a></button>
+        </div>
+        <div class="item">
+            <img src="https://preview.colorlib.com/theme/meal2/images/ximg_4_b.jpg.pagespeed.ic.nT4xKPv8mW.webp" alt="">
+            <p>Italian Sauce mushroom</p>
+            <button class="btn"><a href="book.html" class="a">ORDER NOW</a></button>
+        </div>
+    </div>
+<br>
+<video width="100%" src="vid4.mp4" controls muted autoplay></video>
+    <br>
+<hr style="stroke-width: 10px; margin-top: 50px; margin-bottom: 15px; color: black;">
+
+
+    <div class="block"><h4>PHONE SUPPORT</h4><p>24/7 Call us now.
+        <br>
+        + 1 332 3093 323</p></div>
+    <div class="block"><h4>CONNECT WITH US</h4><p>We are socialized. Follow us</p>
+        <a href="#" class="fa fa-facebook mar2"></a>
+        <a href="#" class="fa fa-youtube mar2"></a>
+        <a href="#" class="fa fa-twitter mar2"></a>
+        <a href="#" class="fa fa-instagram mar2"></a>
+        <a href="#" class="fa fa-linkedin mar2"></a>
+        <a href="#" class="fa fa-snapchat mar2"></a>
+
+    </div>
+
+    <div class="block"><h4>Newsletter</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+        <input class="bor" type="text" id="email" name="email" placeholder="abc@gmail.com"></div>
+
+</body>
+
+</html>

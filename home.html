@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RH World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2&family=Bebas+Neue&family=Domine&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+        .left {
+            margin: 6px;
+            padding: 8px;
+            color: black;
+            font-family: 'Playfair Display', serif;
+            font-size: 23px;
+        }
+
+        .left img {
+            width: 50px;
+            filter: invert(90%);
+
+        }
+
+        .left :hover {
+            cursor: pointer;
+        }
+
+        .left img:hover {
+            filter: invert(5%);
+            cursor: pointer;
+        }
+
+        body {
+            background-image: url(https://www.teahub.io/photos/full/17-173713_buenos-aires-hotel-room.jpg);
+            font-family: 'Baloo Bhai 2', cursive;
+            background-size: cover;
+            width: 94%;
+            height: 640px;
+            background-repeat: no-repeat;
+            opacity: 0.9;
+            background-color: white;
+            color: black;
+
+        }
+
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 6px;
+            font-size: 22px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .navbar li a.active {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .mid {
+
+            width: 47%;
+            /* margin: -94px 764px; */
+            margin-top: -94px;
+            margin-left: 711px;
+            border: 2px;
+            padding: 15px 15px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+        }
+
+        /* .para {
+            text-align: center;
+            margin-top: 160px;
+            font-size: 79px;
+            margin-left: 58px;
+            font-family: 'Playfair Display', serif;
+            color: black;
+        } */
+
+        .para {
+            text-align: center;
+            margin-top: 150px;
+            font-size: 70px;
+            margin-left: 58px;
+            font-family: 'Playfair Display', serif;
+            color: black;
+            animation: text 5s infinite;
+            position: relative;
+        }
+        @keyframes text{
+           0%{
+               letter-spacing: 25px;
+           }
+           /* 50%{
+               font-size: 80px;
+           } */
+        }
+        .hotel {
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            margin-top: -72px;
+            margin-left: 58px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .para:hover {
+            cursor: pointer;
+        }
+
+        .dropbtn {
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            color: white;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            color: black;
+            background-color: grey;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+        /* stay and enjoy */
+        .you {
+            /* color: white; */
+            color: black;
+            width: 471px;
+            margin-top: 630px;
+            margin-left: 40px;
+            height: 430px;
+            text-align: center;
+        }
+
+        .food {
+            /* color: white; */
+            color: black;
+            width: 471px;
+            margin-top: -500px;
+            margin-left: 750px;
+            height: 430px;
+            text-align: center;
+        }
+
+        .i {
+            margin-left: 682px;
+            margin-top: -437px;
+            height: 1065px;
+            width: 631px;
+        }
+
+        .foodimg {
+            /* width: 100px;
+            height: 100px; */
+            margin-left: 40px;
+            margin-top: -437px;
+            height: 900px;
+            width: 631px;
+            /* display: grid;
+            grid-template-columns: 150px 150px; */
+        }
+
+        .img {
+            width: 100%;
+            height: 40%;
+        }
+
+        .images {
+            width: 100%;
+            height: 40%;
+        }
+
+        .btn {
+
+            margin-left: -28px;
+            padding: 10px;
+            background-color: #b99365;
+            border-color: #b99365;
+            color: white;
+            padding-left: 33px;
+            padding-right: 29px;
+            border-radius: 10px;
+
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            /* opacity: 0.8; */
+            background-color: black;
+        }
+
+        .sub {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            color: rgb(27, 26, 26);
+            font-family: "Rubik", arial, sans-serif;
+        }
+
+        .area {
+            font-family: 'Playfair Display', serif;
+            /* color: white; */
+            color: black;
+        }
+
+
+        /* our feaured rooms */
+        .cu {
+            margin-top: -510px;
+            border: 2px solid red;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 25px;
+
+        }
+
+        .a {
+            text-decoration: none;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        /* travel with us */
+        .travel {
+            /* color: white; */
+            color: black;
+            width: 471px;
+            margin-top: -370px;
+            margin-left: 40px;
+            height: 430px;
+            text-align: center;
+        }
+        /* button of book now */
+        .btn2 {
+
+margin-left: 555px;
+padding: 15px;
+background-color: rgb(0, 0, 0);
+border-color: rgb(224, 224, 52);
+color: white;
+padding-left: 33px;
+padding-right: 29px;
+border-radius: 10px;
+
+}
+
+.btn2:hover {
+cursor: pointer;
+opacity: 0.9
+}
+
+/* video */
+.video{
+    margin-top: -500px;
+}
+video{
+    width: 105%;
+}
+
+/* footer */
+.block{margin-left: 3%;
+  margin-right: 2%;
+  width: 28%;
+  /* float: left; */
+}
+.block2{
+    text-align: center;
+    margin-top: -113px;
+}
+.block3{
+    margin-left: 932px;
+    margin-top: -136px;
+    width: 27%;
+}
+.block h3{
+    color: grey;
+     }
+     .bor{border: 1px solid grey;
+            margin-bottom: 20px;
+            /* margin-right: 155px; */
+            padding:8px 60px 8px 5px;
+            width: 100%;}
+            .mar2{margin-right: 10px;}
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <a href="http:\\google.com">
+            <img src="https://cdn.pixabay.com/photo/2012/04/16/13/38/restaurant-36030_960_720.png" alt="">
+        </a>
+        <div>R H World</div>
+
+    </div>
+    <header>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="project.html" class="active">Home</a></li> &nbsp;&nbsp;
+                    <div class="dropdown">
+                        <li class="dropbtn"><a href="#">Rooms</a> </li> &nbsp;&nbsp;
+                        <div class="dropdown-content"> <a href="room.html">Single Room</a>
+                            <a href="room.html">Standard Room</a>
+                            <a href="room.html">Luxury Room</a>
+                            <a href="room.html">Family Room</a>
+                        </div>
+                    </div>
+                    <li><a href="foodnew.html">Restaurant</a></li>
+                    <!-- <li><a href="about.html">About Us</a> </li>&nbsp;&nbsp; -->
+                    <li><a href="tour.html">Tourism</a></li>
+                    <li><a href="contact0.html">Contact Us</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="para">
+        <p>Welcome to RH World</p>
+    </div>
+    <p class="hotel">Discover our India's #1 Luxury Room For VIP</p>
+    <button class="btn2"><a href="book2.html" class="a">BOOK NOW</a> </button>
+    <div class="you">
+        <p class="sub">STAY WITH OUR LUXURY ROOMS</p>
+        <h1 class="area">Stay and Enjoy</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit vero dignissimos nulla, quis officia, sequi
+            nostrum beatae asperiores soluta aut dolorum distinctio iste? Autem molestiae expedita ab fugiat nisi
+            itaque.</p>
+        <button class="btn"><a href="about.html" class="a"> MORE ABOUT US</a></button>
+    </div>
+    <div class="i">
+        <img class="img" src="https://cdn.pixabay.com/photo/2018/08/07/20/09/belgium-3590638_960_720.jpg" alt="">
+    </div>
+
+    <!-- food corner -->
+    <div class="food">
+        <h1 class="area">Treat yourself</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ullam hic quas nobis nemo neque assumenda
+            earum aspernatur voluptatibus tempora quisquam, ipsa at vitae dicta minus blanditiis inventore.</p>
+        <button class="btn"><a href="book2.html" class="a">ORDER NOW</a> </button>
+    </div>
+    <div class="foodimg">
+
+        <img class="images" src="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_960_720.jpg" alt="">
+
+    </div>
+    <div class="travel">
+        <h1 class="area">Travel with Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio praesentium, voluptatum atque mollitia
+            reprehenderit, dolorem consequatur sit, porro accusantium delectus commodi fuga est tempore recusandae!
+            Autem aliquid sunt tenetur facere.</p>
+            <button class="btn"><a href="tour.html" class="a">EXPORE NOW</a> </button>
+    </div>
+    <div class="i">
+        <img  class="img" src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159_960_720.jpg"alt="">
+
+    </div>
+    <div class="video">
+        <video  src="vid3.mp4" controls muted autoplay></video>
+    </div>
+    <div class="block"><h4>PHONE SUPPORT</h4><p>24/7 Call us now.
+        <br>
+        + 1 332 3093 323</p></div>
+    <div class="block2"><h4>CONNECT WITH US</h4><p>We are socialized. Follow us</p>
+        <a href="#" class="fa fa-facebook mar2"></a>
+        <a href="#" class="fa fa-youtube mar2"></a>
+        <a href="#" class="fa fa-twitter mar2"></a>
+        <a href="#" class="fa fa-instagram mar2"></a>
+        <a href="#" class="fa fa-linkedin mar2"></a>
+        <a href="#" class="fa fa-snapchat mar2"></a>
+
+    </div>
+
+    <div class="block3"><h4>Newsletter</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+        <input class="bor" type="text" id="email" name="email" placeholder="abc@gmail.com" style="border-radius: 13px;"></div>
+</body>
+
+</html>
